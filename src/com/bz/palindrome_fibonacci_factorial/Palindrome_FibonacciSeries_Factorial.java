@@ -9,11 +9,10 @@ public class Palindrome_FibonacciSeries_Factorial {
 			rev = rev * 10 + rem;
 			temp = temp / 10;
 		}
-		if(num==rev) {
+		if (num == rev) {
 			System.out.println("The number is palindron");
-		}
-			else {
-				System.out.println("The given number is not a palindrom");
+		} else {
+			System.out.println("The given number is not a palindrom");
 		}
 	}
 
